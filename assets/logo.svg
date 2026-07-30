@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Grace Wellness">
+  <defs>
+    <linearGradient id="gwGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9932F"/>
+      <stop offset="1" stop-color="#8A5D0F"/>
+    </linearGradient>
+  </defs>
+  <!-- open ring, gap at top-right -->
+  <circle cx="50" cy="50" r="36" fill="none" stroke="url(#gwGold)" stroke-width="2.6"
+          stroke-linecap="round" stroke-dasharray="176 50"/>
+  <!-- medical cross in the gap -->
+  <g fill="url(#gwGold)">
+    <rect x="75.4" y="13.5" width="5.2" height="17" rx="2.4"/>
+    <rect x="69.5" y="19.4" width="17" height="5.2" rx="2.4"/>
+  </g>
+  <g fill="url(#gwGold)">
+    <!-- patient: head, torso, legs -->
+    <circle cx="34" cy="35" r="5.6"/>
+    <path d="M28.6 58 L29.8 45.6 Q30.2 41.6 34 41.6 Q37.8 41.6 38.4 45.6 L39.6 55 Z"/>
+    <path d="M38.4 52.6 L51.6 55.2 L51.4 60.2 L38.6 58.6 Z"/>
+    <!-- reaching arm -->
+    <path d="M38.6 46.4 L50.4 51.4" stroke="url(#gwGold)" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+    <!-- footrest -->
+    <path d="M51.2 60.6 L55.4 60.6 L55.4 63.4 L51.2 63.4 Z"/>
+  </g>
+  <!-- wheelchair wheels -->
+  <circle cx="36" cy="63" r="9.4" fill="none" stroke="url(#gwGold)" stroke-width="2.2"/>
+  <g stroke="url(#gwGold)" stroke-width="1.1" opacity=".75">
+    <path d="M36 53.8 V72.2 M26.8 63 H45.2 M29.6 56.6 L42.4 69.4 M42.4 56.6 L29.6 69.4"/>
+  </g>
+  <circle cx="54.6" cy="66.4" r="3.4" fill="none" stroke="url(#gwGold)" stroke-width="1.8"/>
+  <g fill="url(#gwGold)">
+    <!-- nurse: bun, head, body -->
+    <circle cx="70.4" cy="31.8" r="3.2"/>
+    <circle cx="65.6" cy="34" r="5.8"/>
+    <path d="M59.4 62 L60.8 45.4 Q61.4 41 65.8 41 Q70.2 41 71 45.4 L72.6 62 Z"/>
+    <!-- reaching arm toward patient -->
+    <path d="M61.6 46.6 L51.4 51.6" stroke="url(#gwGold)" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- ID badge -->
+  <rect x="67.6" y="47.6" width="3.4" height="4.6" rx="1" fill="#FDF8EF" opacity=".9"/>
+  <!-- ground swoosh -->
+  <path d="M19 68.6 Q50 79.4 81 68.6 Q50 75.4 19 71.4 Z" fill="url(#gwGold)"/>
+</svg>

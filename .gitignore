@@ -1,0 +1,17 @@
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies (none currently — static site)
+node_modules/
