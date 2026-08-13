@@ -104,7 +104,7 @@ function buildFooter(){
   <div class="wrap foot-top">
     <div class="foot-col">
       <div class="foot-brand"><img class="mk" src="${SITE.logo}" alt=""><span><b>${SITE.brand}</b><small>${SITE.motto}</small></span></div>
-      <p style="max-width:34ch;color:#DCCDAE">${SITE.promise} Professional home nursing backed by 30 years of experience — bringing hospital-quality care home, with warmth and dignity.</p>
+      <p style="max-width:34ch;color:#DCCDAE">${SITE.promise} Professional home nursing backed by 14 years of experience — bringing hospital-quality care home, with warmth and dignity.</p>
       <div style="display:flex;gap:12px;margin-top:20px;flex-wrap:wrap">
         <a class="btn btn-primary" href="${telLink}">${ICON.phone}Call now</a>
         <a class="btn btn-wa" href="${waLink()}" target="_blank" rel="noopener">${ICON.wa}WhatsApp</a>

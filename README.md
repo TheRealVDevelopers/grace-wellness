@@ -1,6 +1,6 @@
 # Grace Wellness — Home Nursing Care Website
 
-Marketing website for **Grace Wellness**, *Healthcare Centre for the Need* — a home nursing care service in Bangalore with 30 years of nursing experience.
+Marketing website for **Grace Wellness**, *Healthcare Centre for the Need* — a home nursing care service in Bangalore with 14 years of nursing experience.
 
 **Live:** https://grace-wellness-17933.web.app
 
