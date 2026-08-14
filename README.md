@@ -2,7 +2,7 @@
 
 Marketing website for **Grace Wellness**, *Healthcare Centre for the Need* — a home nursing care service in Bangalore with 14 years of nursing experience.
 
-**Live:** https://grace-wellness-17933.web.app
+**Live:** https://gracewellnessmhc.com (also served at https://grace-wellness-17933.web.app)
 
 ---
 
@@ -66,6 +66,22 @@ firebase deploy --only hosting
 ```
 
 That's it — it uploads and goes live in seconds. Requires the Firebase CLI, logged in to the account that owns the project.
+
+---
+
+## Link preview (WhatsApp, Facebook, LinkedIn)
+
+Every page carries Open Graph and Twitter Card tags, so sharing a link shows a photo, a title and a description instead of a bare URL.
+
+The preview image is `assets/og-image.jpg` (1200×630, ~126 KB — deliberately kept small because WhatsApp silently drops large images).
+
+To regenerate it after a brand or copy change:
+
+1. Edit `og-builder.html` (the card layout — it is not deployed, it exists only to produce the image).
+2. Serve the folder locally and screenshot it at exactly 1200×630.
+3. Save the result as `assets/og-image.jpg`, keeping it under ~280 KB.
+
+**Caching:** WhatsApp, Facebook and LinkedIn cache previews hard. After changing the image or the tags, the old preview can persist for days. Force a refresh with Facebook's [Sharing Debugger](https://developers.facebook.com/tools/debug/) ("Scrape Again"), or share a URL with a throwaway query string such as `?v=2` to bypass the cache.
 
 ---
 
